@@ -30,7 +30,7 @@ DATA_DICT = {
     # The new CLA lines
     'opex_marketing_per_CLA': ('opex_marketing_per_CLA.parquet', 'Opex Marketing psf', 'opex'), 
     'opex_rates_per_CLA': ('opex_rates_per_CLA.parquet', 'Opex Rates psf', 'opex'), 
-    'opex_rent_per_CLA': ('opex_rent_per_CLA.parquet', 'Opex Rent psf', 'opex'), 
+  #  'opex_rent_per_CLA': ('opex_rent_per_CLA.parquet', 'Opex Rent psf', 'opex'), 
     'opex_staff_per_CLA': ('opex_staff_per_CLA.parquet', 'Opex Staff psf', 'opex'), 
     'opex_utils_per_CLA': ('opex_utils_per_CLA.parquet', 'Operating Utils psf', 'opex'), 
     'opex_total_per_CLA': ('opex_total_per_CLA.parquet', 'Total Opex psf', 'opex'), 
