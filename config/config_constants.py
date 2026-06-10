@@ -27,6 +27,15 @@ DATA_DICT = {
     'opex_staff': ('opex_staff.parquet', 'Opex Staff', 'opex'), 
     'opex_utils': ('opex_utils.parquet', 'Operating Utils', 'opex'), 
     'opex_total': ('opex_total.parquet', 'Total Opex', 'line_total'), 
+    # The new CLA lines
+    'opex_marketing_per_CLA': ('opex_marketing_per_CLA.parquet', 'Opex Marketing', 'opex'), 
+    'opex_rates_per_CLA': ('opex_rates_per_CLA.parquet', 'Opex Rates psf', 'opex'), 
+    'opex_rent_per_CLA': ('opex_rent_per_CLA.parquet', 'Opex Rent psf', 'opex'), 
+    'opex_staff_per_CLA': ('opex_staff_per_CLA.parquet', 'Opex Staff psf', 'opex'), 
+    'opex_utils_per_CLA': ('opex_utils_per_CLA.parquet', 'Operating Utils psf', 'opex'), 
+    'opex_total_per_CLA': ('opex_total_per_CLA.parquet', 'Total Opex psf', 'opex'), 
+    #
+    
     'rent_ann': ('rent_ann.parquet', 'Annual Rent', 'rent'), 
     'rent_mth': ('rent_mth.parquet', 'Monthly Rent', 'rent'), 
     'rev_bulk': ('rev_bulk.parquet', 'Bulk Rev', 'revenue'), 
