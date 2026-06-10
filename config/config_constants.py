@@ -28,7 +28,7 @@ DATA_DICT = {
     'opex_utils': ('opex_utils.parquet', 'Operating Utils', 'opex'), 
     'opex_total': ('opex_total.parquet', 'Total Opex', 'line_total'), 
     # The new CLA lines
-    'opex_marketing_per_CLA': ('opex_marketing_per_CLA.parquet', 'Opex Marketing', 'opex'), 
+    'opex_marketing_per_CLA': ('opex_marketing_per_CLA.parquet', 'Opex Marketing psf', 'opex'), 
     'opex_rates_per_CLA': ('opex_rates_per_CLA.parquet', 'Opex Rates psf', 'opex'), 
     'opex_rent_per_CLA': ('opex_rent_per_CLA.parquet', 'Opex Rent psf', 'opex'), 
     'opex_staff_per_CLA': ('opex_staff_per_CLA.parquet', 'Opex Staff psf', 'opex'), 
