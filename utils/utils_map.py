@@ -28,7 +28,7 @@ def render_selection_map(gdf: gpd.GeoDataFrame, key: str = "selection_map"):
     center_lat = (bounds[1] + bounds[3]) / 2
     center_lon = (bounds[0] + bounds[2]) / 2
 
-    m = folium.Map(tiles='CartoDB Positron',
+    m = folium.Map(tiles='OpenStreetMap',
                    location=[center_lat, center_lon])
 
     # Fit bounds
